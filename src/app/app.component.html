@@ -1,0 +1,15 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="
+text-align:center;  width: 400px; margin: auto;">
+
+One Way Binding Component->Template:   <input type="text" [ngModel]="subtitle"/><br><br>
+
+Two Way Binding Component <-> Template :   <input type="text" [(ngModel)]="subtitle"/>
+
+  <div style="padding: 10px;"> <input type="button" value="Change Value in Component " (click)="getData($event)"/></div>
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+  <h2>{{subtitle}}</h2>
+
+</div>

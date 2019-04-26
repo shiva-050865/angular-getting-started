@@ -1,0 +1,14 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="
+text-align:center;  width: 400px; margin: auto;">
+    <h1>Data Two Way Bind</h1>
+    <ul>
+        <li *ngFor="let item of data; let idx=index ">
+            <input type="text" [(ngModel)]="item.name">
+            <h3>{{item.name}}</h3>
+            <p> {{item.description}}</p>
+            <hr/>
+        </li>
+    </ul>
+
+</div>

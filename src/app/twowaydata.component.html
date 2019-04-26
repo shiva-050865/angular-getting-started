@@ -1,0 +1,11 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="
+text-align:center;  width: 800px; margin: auto;">
+<div style="text-align: center;"><button (click)="populateData()">Populate Data</button></div>
+<div style="float: left; width: 40%;">
+    <app-data-source [data]="data"></app-data-source>
+</div>
+<div style="float: right;width: 40%;">
+    <app-data-destination [data]="data"></app-data-destination>
+</div>
+</div>
